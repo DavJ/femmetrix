@@ -1,0 +1,8 @@
+name: api_builder
+description: Builds backend APIs using FastAPI
+roles:
+  - schema_to_route_mapping
+  - database_integration
+  - input/output validation
+input_format: OpenAPI schema or model description
+output_format: Python FastAPI module

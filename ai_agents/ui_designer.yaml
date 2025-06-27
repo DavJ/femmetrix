@@ -1,0 +1,8 @@
+name: ui_designer
+description: Designs and outputs frontend components (React + Tailwind)
+roles:
+  - page_layout_planning
+  - component_generation
+  - responsive_design
+input_format: design description + user story
+output_format: JSX + CSS

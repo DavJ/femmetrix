@@ -1,0 +1,8 @@
+name: orchestrator
+description: Coordinates all other AI agents and their task delegation
+roles:
+  - epic_analysis
+  - agent_assignment
+  - output integration
+input_format: epic/story YAML or markdown
+output_format: task queue JSON + summary log

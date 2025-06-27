@@ -1,0 +1,8 @@
+name: prompt_curator
+description: Refines prompts for LLM agents
+roles:
+  - prompt analysis
+  - feedback-based tuning
+  - format standardization
+input_format: prompt + output logs
+output_format: optimized prompt templates

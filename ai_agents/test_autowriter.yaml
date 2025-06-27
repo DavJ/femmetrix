@@ -1,0 +1,8 @@
+name: test_autowriter
+description: Generates and runs automated tests for backend and frontend
+roles:
+  - unit_test_generation
+  - e2e_test_generation
+  - test_execution_and_feedback
+input_format: code diff + requirements
+output_format: pytest or Playwright scripts
