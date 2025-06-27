@@ -1,3 +1,8 @@
-# ai_agents/femcoach_generator.yaml
-
-This is a placeholder for ai_agents/femcoach_generator.yaml.
+name: femcoach_generator
+description: AI agent to generate personalized feminization coaching content
+roles:
+  - personality_selection
+  - daily_task_generator
+  - progress_review
+input_format: JSON
+output_format: Markdown + JSON
