@@ -1,0 +1,8 @@
+name: elastic_indexer
+description: Indexes files from femmetrix repo branches into Elasticsearch
+roles:
+  - git_checkout
+  - file_extraction
+  - elastic_indexing
+input_format: repo URL + branch name
+output_format: elastic index document per file
