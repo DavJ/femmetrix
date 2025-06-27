@@ -1,0 +1,3 @@
+# data/prompt_templates/coach_prompt.txt
+
+This is a placeholder for data/prompt_templates/coach_prompt.txt.
